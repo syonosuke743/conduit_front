@@ -28,7 +28,7 @@ const EditPost = ({ params }) => {
     }
   }, [params.id]);
 
-  const handleSubmit = async (e: FormEvent) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     console.log(title, description, body);
 

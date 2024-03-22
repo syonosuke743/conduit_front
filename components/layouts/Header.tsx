@@ -10,8 +10,8 @@ const Header = () => {
     <nav className={styles.pcnav}>
         <ul className={styles.ul}>
             <li className={styles.li}><a href="/">HOME</a></li>
-            <li className={styles.li}><a href="signin">Sign in</a></li>
-            <li className={styles.li}><a href="signup">Sign up</a></li>
+            <li className={styles.li}><a href="#">Sign in</a></li>
+            <li className={styles.li}><a href="#">Sign up</a></li>
             <li className={styles.li}><a href="new-article">New Article</a></li>
         </ul>
     </nav>
